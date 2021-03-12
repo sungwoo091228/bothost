@@ -25,10 +25,10 @@ async def on_message(message):
             else:
                 try:
                     msg = message.content[4:]
-                    if message.author.id == 디스코드ID를 적기!!:
+                    if message.author.id == 705771803989245993:
                         embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="최상단 제목")
                         embed.add_field(name="제목", value=msg, inline=True)
-                        embed.set_footer(text=f"서버초대코드")
+                        embed.set_footer(text=f"https://discord.gg/XG8pez35sq")
                         await i.send(embed=embed)
                 except:
                     pass
